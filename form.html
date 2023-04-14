@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width; initial-scale=1" />
   <link rel="stylesheet" href="css/all.css" type="text/css"/>
   <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
-  <script type="text/javascript" src="js/main.js"></script>
   <title>Project name for browser tab</title>
 </head>
 <body>
-<button type="submit" class="button">BUTTON</button>
+<button type="submit" class="button modal_open" data-modal="call_back">BUTTON</button>
 <div class="popup" id="call_back">
   <div class="popup_box">
     <button class="close_btn" id="close_popup_btn">
@@ -26,11 +25,11 @@
         <input class="name" type="text" id="name" onkeyup="checkParams()" maxlength="15" required="" placeholder="Ваше имя">
         <input class="phone" type="number" id="phone" onkeyup="checkParams()" maxlength="15" required="" placeholder="Телефон">
         <input class="email" type="email" placeholder="Почта (необязательно)">
-        <button class="send_btn" id="open_tnx_btn" type="button" disabled="">Отправить</button>
+        <button class="send_btn" id="open_tnx_btn" type="button" >Отправить</button>
       </fieldset>
     </form>
   </div>
 </div>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
-<script !src="js/main.js"></script>
 </html>
